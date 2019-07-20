@@ -12,7 +12,7 @@ use yii\web\IdentityInterface;
  * @property int $id
  * @property string $name
  * @property string $email
- * @property string password
+ * @property string $password
  * @property string $reg_date
  * @property string $level
  */

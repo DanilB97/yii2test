@@ -3,9 +3,7 @@
 namespace app\models;
 
 
-use yii\db\ActiveRecord;
-
-class Cart extends ActiveRecord
+class Cart
 {
     public static function addToCart(Product $product, $qty = 1)
     {
